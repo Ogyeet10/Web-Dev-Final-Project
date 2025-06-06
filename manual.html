@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>
-            Manual
-        </title>
+        <title>InstantMessager - Manual</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,7 +11,6 @@
     <body>
         <nav class="navbar navbar-expand-sm bg-color">
           <div class="container-fluid">
-                <!--Links-->
                 <ul class="navbar-nav">
                   <li class="nav-item">
                       <a class="nav-link" href="index.html">Home</a>
@@ -22,21 +19,63 @@
                       <a class="nav-link" href="connect.html">Connect</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link, text-muted" href="manual.html">Manual</a>
+                      <a class="nav-link" href="manual.html">Manual</a>
                   </li>
                 </ul>
             </div>
         </nav>
         <div class="container">
             <div class="row">
-                <div class="col-md-5">
-                    <h1> InstantMessager Messaging Platform</h1>
+                <div class="col-md-12">
+                    <h1 class="mb-4">InstantMessager User Manual</h1>
                 </div>
-                <div class="col-md-2">
-            
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>How to Use InstantMessager</h3>
+                    <h5>Step 1: Access the Connect Page</h5>
+                    <p>Navigate to the <a href="connect.html">Connect page</a> using the navigation menu or the "Start Messaging" button on the home page.</p>
+                    
+                    <h5>Step 2: Generate or Enter a Session ID</h5>
+                    <p>You can either:</p>
+                    <ul>
+                        <li><strong>Generate a new ID:</strong> Click the "Generate ID" button to create a unique session identifier</li>
+                        <li><strong>Enter an existing ID:</strong> Type in a session ID that someone has shared with you</li>
+                    </ul>
+                    
+                    <h5>Step 3: Share Your ID</h5>
+                    <p>Copy your session ID and share it with the person you want to chat with. They need to enter this ID on their Connect page.</p>
+                    
+                    <h5>Step 4: Start Messaging</h5>
+                    <p>Once both users have entered the same session ID, you'll be connected and can start sending messages in real-time.</p>
                 </div>
-                <div class="col-md-5">
-                    Welcome to InstantMessager. To connect to another user you copy your one time use ID and send your ID to the other user, wait for the connection, and it should show an incoming connection, you will be able to send messages then. 
+                <div class="col-md-6">
+                    <h3>Features & Tips</h3>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Real-time Messaging</h5>
+                            <p class="card-text">Messages appear instantly without needing to refresh the page.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Session-based</h5>
+                            <p class="card-text">No account registration required. Just share session IDs to connect.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Privacy</h5>
+                            <p class="card-text">Each session is temporary and private to the users who share the ID.</p>
+                        </div>
+                    </div>
+                    
+                    <h4>Troubleshooting</h4>
+                    <ul>
+                        <li><strong>Can't connect?</strong> Make sure both users are using the exact same session ID</li>
+                        <li><strong>Messages not sending?</strong> Check your internet connection and try refreshing the page</li>
+                        <li><strong>Lost your session?</strong> Generate a new ID and share it again</li>
+                    </ul>
                 </div>
             </div>
         </div>    
